@@ -608,7 +608,7 @@ export default function StudentAssessmentsView({
                       </span>
                       <textarea
                         rows={5}
-                        className="w-full bg-slate-900 text-emerald-350 font-mono text-xs p-4 rounded-lg border-none focus:ring-1 focus:ring-indigo-400 outline-none leading-relaxed"
+                        className="w-full bg-slate-900 text-emerald-400 font-mono text-xs p-4 rounded-lg border-none focus:ring-1 focus:ring-indigo-400 outline-none leading-relaxed"
                         value={schedCodingAnswers[idx] || ""}
                         onChange={(e) => {
                           const val = e.target.value;
